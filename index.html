@@ -120,10 +120,10 @@
       });
   
       // Agregar las capas al mapa (el orden de agregado influye en la visualización)
-      map.addLayer(layerBarranca);
-      map.addLayer(layerColonias);
       map.addLayer(layerTren);
       map.addLayer(layerVerdes);
+      map.addLayer(layerBarranca);
+      map.addLayer(layerColonias);
   
       // Controles de visibilidad (checkboxes)
       document.getElementById('cbBarranca').addEventListener('change', function() {
